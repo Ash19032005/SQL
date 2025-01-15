@@ -1,2 +1,6 @@
 CROSS JOIN
 Cross Join do not contain null values until the individual table contain no null values.Cross join is like a cartesian product of two or more tables.
+
+COUNT()
+COUNT(*) Includes NULL values as count
+COUNT(COLUMN_NAME) does not include NULL values
